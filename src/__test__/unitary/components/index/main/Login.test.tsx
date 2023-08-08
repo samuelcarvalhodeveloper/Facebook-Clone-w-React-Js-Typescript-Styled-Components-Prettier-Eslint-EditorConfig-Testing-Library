@@ -5,16 +5,16 @@ import { LOGIN_BUTTON_ELEMENT_TEXT } from "../../../../constants/pages/index/pag
 
 describe("Test Login Component Behavior", () => {
   test("Test If Component Elements Was Placed on Screen Correctly", () => {
-    const { getByText } = render(<Login />);
+    const { getByDisplayValue } = render(<Login />);
 
-    expect(getByText(LOGIN_BUTTON_ELEMENT_TEXT)).toBeTruthy();
+    expect(getByDisplayValue(LOGIN_BUTTON_ELEMENT_TEXT)).toBeTruthy();
   });
 
   test('Test If Method "preventDefaultOnClick()" works, and Form Was Not Sent Correctly', () => {
-    const { getByText } = render(<Login />);
+    const { getByDisplayValue } = render(<Login />);
 
-    fireEvent.click(getByText(LOGIN_BUTTON_ELEMENT_TEXT));
+    fireEvent.click(getByDisplayValue(LOGIN_BUTTON_ELEMENT_TEXT));
 
-    expect(getByText(LOGIN_BUTTON_ELEMENT_TEXT)).toBeTruthy();
+    expect(getByDisplayValue(LOGIN_BUTTON_ELEMENT_TEXT)).toBeTruthy();
   });
 });

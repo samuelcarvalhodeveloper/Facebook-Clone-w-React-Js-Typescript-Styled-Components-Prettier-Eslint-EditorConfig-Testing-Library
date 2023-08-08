@@ -1,14 +1,14 @@
 import { describe, test, expect } from "@jest/globals";
 import { fireEvent, render } from "@testing-library/react";
-import Login from "../../../../../../components/index/main/login/Login";
 import { LOGIN_BUTTON_ELEMENT_TEXT } from "../../../../../constants/pages/index/pageElementsInnerTextConstants";
+import Index from "../../../../../../pages/Index";
 
 describe("Test Module preventDefaultOnClick Behavior", () => {
-  test('Test If Method "preventDefaultOnClick()" works, and Form Was Not Sent Correctly', () => {
-    const { getByText } = render(<Login />);
+  test('Test If Method: "preventDefaultOnClick()"; Don Not Send Form From Index Correctly Correctly', () => {
+    const { getByDisplayValue } = render(<Index />);
 
-    fireEvent.click(getByText(LOGIN_BUTTON_ELEMENT_TEXT));
+    fireEvent.click(getByDisplayValue(LOGIN_BUTTON_ELEMENT_TEXT));
 
-    expect(getByText(LOGIN_BUTTON_ELEMENT_TEXT)).toBeTruthy();
+    expect(getByDisplayValue(LOGIN_BUTTON_ELEMENT_TEXT)).toBeTruthy();
   });
 });
