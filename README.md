@@ -2,13 +2,13 @@
 Facebook Clone With React Js Typescript Styled Components Prettier Eslint EditorConfig Testing Library
 </h1>
 
-<br/>
+<br />
 
 ![](./READMEThumbnail.png)
 
 <h2 align="center"><a href="https://samuelcarvalho.vercel.app/projects/facebook" align="center"> 🖥️  CHECK OUT: ONLINE SITE! -></a></h2>
 
-<br />
+<br/>
 
 <div align="center">
   <a href="#description">Description</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp <a href="#install">Install</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp <a href="#technologies">Technologies</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp <a href="#related">Related</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp <a href="#references">References</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp <a href="#contact">Contact</a>
@@ -93,4 +93,4 @@ See more:
 
 <p align="center"><strong>Repository Link:</strong></p>
 
-[https://github.com/samuelcarvalhodeveloper/Facebook-Clone-w-React-Js-Typescript-Styled-Components-Prettier-Eslint-EditorConfig](https://github.com/samuelcarvalhodeveloper/Facebook-Clone-w-React-Js-Typescript-Styled-Components-Prettier-Eslint-EditorConfig)
+[https://github.com/samuelcarvalhodeveloper/Facebook-Clone-w-React-Js-Typescript-Styled-Components-Prettier-Eslint-EditorConfig-Testing-Library](https://github.com/samuelcarvalhodeveloper/Facebook-Clone-w-React-Js-Typescript-Styled-Components-Prettier-Eslint-EditorConfig-Testing-Library)
