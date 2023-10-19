@@ -1,6 +1,6 @@
 import styled, { StyledComponent } from "styled-components";
 
-const Styled: StyledComponent<"div", any, {}, never> = styled.div`
+const Styles: StyledComponent<"div", any, {}, never> = styled.div`
   display: flex;
   align-items: center;
   flex-flow: column nowrap;
@@ -128,4 +128,4 @@ const Styled: StyledComponent<"div", any, {}, never> = styled.div`
   }
 `;
 
-export default Styled;
+export default Styles;

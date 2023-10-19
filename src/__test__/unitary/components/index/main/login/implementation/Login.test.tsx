@@ -1,7 +1,7 @@
 import { describe, test, expect } from "@jest/globals";
 import { fireEvent, render } from "@testing-library/react";
-import Login from "../../../../../components/index/main/login/Login";
-import { LOGIN_BUTTON_ELEMENT_TEXT } from "../../../../constants/pages/index/pageElementsInnerTextConstants";
+import Login from "../../../../../../../components/index/main/login/implementation/Login";
+import { LOGIN_BUTTON_ELEMENT_TEXT } from "../../../../../../constants/pages/index/pageElementsInnerTextConstants";
 
 describe("Test Login Component Behavior", () => {
   test("Test If Component Elements Was Placed on Screen Correctly", () => {

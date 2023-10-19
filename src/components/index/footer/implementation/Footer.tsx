@@ -1,10 +1,10 @@
-import Styled from "./Styled";
+import Styles from "../styles/Styles";
 
 function Footer(): JSX.Element {
   const currentYear: number = new Date().getFullYear();
 
   return (
-    <Styled>
+    <Styles>
       <div className="footer__center">
         <div className="footer__lang">
           <ul className="footer__lang-list">
@@ -299,7 +299,7 @@ function Footer(): JSX.Element {
           <p className="footer__copyright__text">Meta © {currentYear}</p>
         </div>
       </div>
-    </Styled>
+    </Styles>
   );
 }
 

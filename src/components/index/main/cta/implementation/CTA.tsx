@@ -1,9 +1,9 @@
-import Styled from "./Styled";
 import FacebookLogo from "../../../../assets/img/index/FacebookLogo.svg";
+import Styles from "../styles/Styles";
 
 function CTA(): JSX.Element {
   return (
-    <Styled>
+    <Styles>
       <div className="cta__title">
         <img
           src={FacebookLogo}
@@ -14,7 +14,7 @@ function CTA(): JSX.Element {
       <h2 className="cta__label">
         Connect with friends and the world around you on Facebook.
       </h2>
-    </Styled>
+    </Styles>
   );
 }
 

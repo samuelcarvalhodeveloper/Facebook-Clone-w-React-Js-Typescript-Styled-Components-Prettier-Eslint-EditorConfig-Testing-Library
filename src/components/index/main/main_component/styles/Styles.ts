@@ -1,6 +1,6 @@
 import styled, { StyledComponent } from "styled-components";
 
-const Styled: StyledComponent<"main", any, {}, never> = styled.main`
+const Styles: StyledComponent<"main", any, {}, never> = styled.main`
   .main__container {
     display: flex;
     justify-content: center;
@@ -21,4 +21,4 @@ const Styled: StyledComponent<"main", any, {}, never> = styled.main`
   }
 `;
 
-export default Styled;
+export default Styles;

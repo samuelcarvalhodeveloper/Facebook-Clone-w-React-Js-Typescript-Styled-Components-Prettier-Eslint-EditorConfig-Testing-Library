@@ -1,6 +1,6 @@
 import styled, { StyledComponent } from "styled-components";
 
-const Styled: StyledComponent<"div", any, {}, never> = styled.div`
+const Styles: StyledComponent<"div", any, {}, never> = styled.div`
   width: 100%;
   max-width: 50rem;
   display: flex;
@@ -49,4 +49,4 @@ const Styled: StyledComponent<"div", any, {}, never> = styled.div`
   }
 `;
 
-export default Styled;
+export default Styles;

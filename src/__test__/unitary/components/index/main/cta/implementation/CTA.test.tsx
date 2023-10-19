@@ -1,7 +1,7 @@
 import { describe, test, expect } from "@jest/globals";
 import { render } from "@testing-library/react";
-import CTA from "../../../../../components/index/main/cta/CTA";
-import { CTA_ELEMENT_TEXT } from "../../../../constants/pages/index/pageElementsInnerTextConstants";
+import CTA from "../../../../../../../components/index/main/cta/implementation/CTA";
+import { CTA_ELEMENT_TEXT } from "../../../../../../constants/pages/index/pageElementsInnerTextConstants";
 
 describe("Test CTA Component Behavior", () => {
   test("Test If Component Elements Was Placed on Screen Correctly", () => {

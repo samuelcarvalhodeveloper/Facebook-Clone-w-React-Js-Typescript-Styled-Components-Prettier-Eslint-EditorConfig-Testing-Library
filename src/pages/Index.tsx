@@ -1,5 +1,5 @@
-import Main from "../components/index/main/Main";
-import Footer from "../components/index/footer/Footer";
+import Main from "../components/index/main/main_component/implementation/Main";
+import Footer from "../components/index/footer/implementation/Footer";
 
 function Index(): JSX.Element {
   return (

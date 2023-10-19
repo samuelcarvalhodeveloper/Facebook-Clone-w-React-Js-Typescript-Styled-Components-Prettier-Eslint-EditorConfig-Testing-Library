@@ -1,10 +1,10 @@
 import { describe, test, expect } from "@jest/globals";
 import { render, fireEvent } from "@testing-library/react";
-import Main from "../../../../../components/index/main/Main";
+import Main from "../../../../../../../components/index/main/main_component/implementation/Main";
 import {
   CTA_ELEMENT_TEXT,
   LOGIN_BUTTON_ELEMENT_TEXT,
-} from "../../../../constants/pages/index/pageElementsInnerTextConstants";
+} from "../../../../../../constants/pages/index/pageElementsInnerTextConstants";
 
 describe("Test Main Component Behavior", () => {
   test("Test If Component Elements Was Placed on Screen Correctly", () => {

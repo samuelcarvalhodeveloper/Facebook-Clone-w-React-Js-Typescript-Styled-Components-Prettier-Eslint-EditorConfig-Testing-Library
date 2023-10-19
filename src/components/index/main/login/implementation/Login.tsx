@@ -1,10 +1,10 @@
 import { FormEvent, MouseEvent } from "react";
-import preventDefaultOnClick from "../../../../utils/react/pages/index/preventDefaultOnClick";
-import Styled from "./Styled";
+import preventLoginFormSubmit from "../infrastructure/ui/prevent_login_form_submit/preventLoginFormSubmit";
+import Styles from "../styles/Styles";
 
 function Login(): JSX.Element {
   return (
-    <Styled>
+    <Styles>
       <form
         action="#"
         className="login__form">
@@ -29,7 +29,7 @@ function Login(): JSX.Element {
           ) => {
             const e: FormEvent<HTMLFormElement> =
               event as unknown as FormEvent<HTMLFormElement>;
-            preventDefaultOnClick(e);
+            preventLoginFormSubmit(e);
           }}
         />
         <a
@@ -53,7 +53,7 @@ function Login(): JSX.Element {
         </a>{" "}
         for a celebrity, brand or business.
       </p>
-    </Styled>
+    </Styles>
   );
 }
 
